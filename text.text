@@ -1,0 +1,129 @@
+ 1️⃣ Part 1: Database & Backend (Render)
+
+### Step 1: Create a PostgreSQL Database
+
+for this , this is the i got :
+
+
+taskflow-db
+Free
+Upgrade your instance
+View docs
+
+Connect
+Service ID:
+dpg-d61jt1q4d50c73a96evg-a
+
+Info
+Your database will expire on March 6, 2026. The database will be deleted unless you upgrade to a paid instance type.
+General
+Name
+A unique name for your database.
+taskflow-db
+
+Edit
+Created
+2 minutes ago
+Status
+available
+PostgreSQL Version
+18
+Region
+Oregon (US West)
+Read Replicas
+
+Add Read Replica
+Storage
+Fetching storage metrics
+Storage Autoscaling
+Disabled
+Datadog API Key
+
+Add Datadog API Key
+Postgres Instance
+Instance Type
+Free
+256 MB
+ RAM
+0.1
+ CPU
+1 GB
+ Storage
+Update
+A credit card is required to change instance types.
+Add payment information
+High Availability
+Run a standby instance of your database and automatically fail over to it if the primary encounters an issue.
+
+
+Disabled
+Only available for Pro instances and higher.
+See upgrade options
+Connections
+Hostname
+An internal hostname used by your Render services.
+dpg-d61jt1q4d50c73a96evg-a
+
+Port
+5432
+
+Database
+taskflow_db_whe0
+
+Username
+taskflow_db_whe0_user
+
+Password
+Nv3uimedL9z9jrwXRQPFUtBJrbnjElIU
+
+
+Internal Database URL
+postgresql://taskflow_db_whe0_user:Nv3uimedL9z9jrwXRQPFUtBJrbnjElIU@dpg-d61jt1q4d50c73a96evg-a/taskflow_db_whe0
+
+
+External Database URL
+postgresql://taskflow_db_whe0_user:Nv3uimedL9z9jrwXRQPFUtBJrbnjElIU@dpg-d61jt1q4d50c73a96evg-a.oregon-postgres.render.com/taskflow_db_whe0
+
+
+PSQL Command
+PGPASSWORD=Nv3uimedL9z9jrwXRQPFUtBJrbnjElIU psql -h dpg-d61jt1q4d50c73a96evg-a.oregon-postgres.render.com -U taskflow_db_whe0_user taskflow_db_whe0
+
+
+Credentials
+Create new default credentials and delete the old ones when ready.
+
+Username
+1
+
+Password
+
+Created
+
+Open Connections
+taskflow_db_whe0_userDefault	
+••••••••••••••••
+<1m	0	
+
+New default credential
+Networking
+Inbound IP Restrictions
+Limit incoming traffic to your services from specific IP ranges. Sources are specified in CIDR block notation.
+
+1
+IP range is allowed from outside of your private network.
+
+Validate IP address
+0.0.0.0
+PostgreSQL Inbound IP Rules
+Source	Description	Delete
+CIDR block
+0.0.0.0/0
+Description
+everywhere
+
+
+Add source
+
+
+
+

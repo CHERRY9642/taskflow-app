@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:5173', // Vercel URL in production
+    origin: process.env.CLIENT_URL || process.env.CORS_ORIGIN || 'http://localhost:5173', // Vercel URL in production
     credentials: true
 }));
 app.use(express.json());
